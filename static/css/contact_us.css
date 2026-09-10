@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(222, 200, 205);
+}
+nav{
+    display:flex;
+    gap:60px;
+    justify-content:center;
+    background-color:rgb(194, 110, 124);
+}
+h1{
+    color: rgb(123, 22, 22);
+    font-family: serif;
+    text-align: center;
+    font-size: 45px;
+}
+h2{
+    color: rgb(123, 22, 22);
+    font-family: cenzil;
+    text-align: center;
+    font-size: 30px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    font-family: cenzil;
+    font-size: 30px;
+    color:  rgb(95, 10, 10);
+}
