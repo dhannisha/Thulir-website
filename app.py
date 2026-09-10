@@ -8,7 +8,7 @@ def home():
 
 @app.route('/aboutus')
 def about():
-    return render_template ("aboutus.html")
+    return render_template ("About_us.html")
 
 @app.route('/gallery')
 def gallery():
@@ -16,6 +16,6 @@ def gallery():
 
 @app.route('/contactus')
 def contactus():
-    return render_template ("contactus.html")
+    return render_template ("Contact_us.html")
 
 app.run(debug=True)
