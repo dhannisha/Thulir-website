@@ -6,7 +6,7 @@ app=Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/aboutus')
+@app.route('/about_us')
 def about():
     return render_template ("About_us.html")
 
@@ -14,7 +14,7 @@ def about():
 def gallery():
     return render_template ("gallery.html")
 
-@app.route('/contactus')
+@app.route('/contact_us')
 def contactus():
     return render_template ("Contact_us.html")
 
